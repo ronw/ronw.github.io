@@ -2,7 +2,7 @@
 #title Ron Weiss
 
 <literal>
-<img align=`"left" src="images/ron-ee6884-cropped.jpg" />
+<img align="left" src="images/ron-ee6884-cropped.jpg" />
 </literal>
 
 I'm currently a software engineer at [[http://g.co/brain][Google Brain]].  While at [[http://research.google.com/pubs/RonWeiss.html][Google]]
