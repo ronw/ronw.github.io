@@ -1,0 +1,159 @@
+/* the pre markup was derived from rubyStyle.css, the rest is from previous
+iterations of my website http://repose.cx/. help yourself to bits you like. */
+
+body {
+ font: 12px/1.2 Verdana, Arial, Helvetica, sans-serif;
+ background:#fff;
+ padding:10%;
+ padding-top:2%;
+ margin:0px;
+}
+ 
+a:link {
+# text-decoration:none;
+# font-weight:bold;
+# color:#c00;
+ color:#00f;
+}
+a:visited { color:#00f; }
+
+#b {
+# color:#222;
+#}
+
+#a:hover {
+# background:#000000;
+# color:#FFFFFF;
+#}
+
+h1 a {
+ color:#666;
+}
+
+h2 a {
+ color:#666;
+}
+
+h3 a {
+ color:#666;
+}
+
+h4 a {
+ color:#666;
+}
+
+h1 { 
+ font-size: 26px;
+ color:#666;
+ border-bottom: 5px solid #000;
+ padding: 2px;
+ margin: 0px;
+ margin-bottom: 8px;
+ overflow: hidden;
+}
+
+hr {
+ border: 1px solid #000;
+}
+
+h2 { 
+ color:#666;
+ font-size: 22px;
+ padding: 2px;
+ margin-top: 5px;
+ border-bottom: 2px solid #000000;
+ overflow: hidden;
+ }
+
+h3 { 
+ color:#666;
+ font-size: 18px;
+ padding: 2px;
+ margin-top: 5px;
+ border-bottom: 1px dashed #000;
+ overflow: hidden;
+}
+
+h4 { 
+ color:#666;
+ font-size: 18px;
+ padding: 2px;
+ margin-top: 5px;
+ overflow: hidden;
+ }
+
+a img { border: none }
+
+img { 
+  border: none;
+  margin-right: 20px;
+//  margin-left: 10px;
+}
+
+#im { 
+    clear: right;
+}
+
+/* 
+pre {
+    border: #777777 1px solid;
+    padding: 0.5em;
+    margin-left: 1em;
+    margin-right: 2em;
+    white-space: pre;
+    background-color: #e6e6e6;
+    color: black;
+}
+*/
+
+.verse {
+    white-space: pre;
+    margin-left: 1em;
+}
+
+dt { 
+     font-weight: bold;
+}
+
+li {
+     margin-bottom: 0.9ex;
+}
+
+
+/* adapted from wjsullivan.net and mwolson.org */
+.navigation {
+  background-color: #EFEFEF;    /* white smoke */
+//  color: white;
+  border: 1px solid black;
+  display: inline;
+//  display: block;
+  float: right;
+/*  clear: both; */
+//  width: 10%;  	 
+ margin-left: 5px;
+//  margin-left 15%;
+  margin-bottom: 5px;
+//  margin-top: 45px;
+  padding: .5em;
+}
+
+.navigation li {list-style: none;}
+
+table, td, th {border:none;}
+th {background-color:#bbbbbb;}
+td {background-color:#dddddd;}
+
+.cleantable table, .cleantable th, .cleantable td {
+  background-color:#ffffff; border:none;
+}
+
+
+#.mainText { 
+          display: inline;
+//           float: left; 
+//           margin-right: 15%;
+//           width: 90%; 
+//             overflow: hidden;
+           }
+
+

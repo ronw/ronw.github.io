@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <title>Projects</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta http-equiv="Content-Type"
+  content="text/html; charset=iso-8859-1" />
+</head>
+
+<body>
+
+
+<div class="navigation">
+  <div class="menuitem">
+    <a title="Home" href="index.html">Home</a>
+  </div>
+  <div class="menuitem">
+    <a title="Projects" href="projects.html">Projects</a>
+  </div>
+  <div class="menuitem">
+    <a title="Code" href="http://www.github.com/ronw">Code</a>
+    (<a title="OldCode" href="code">old</a>)
+  </div>
+  <div class="menuitem">
+<!--
+    <a title="Resume" href="ronweiss-resume.pdf">Resume</a>
+    /
+-->
+    <a title="CV" href="ronweiss-cv.pdf">CV</a>
+  </div>
+  <div class="menuitem">
+    <a title="Photos" href="photos/index.html">Photos</a>
+  </div>
+<!--  
+  <div class="menuitem">
+    <a title="Index" href="WikiIndex.html">Index</a>
+  </div>
+-->  
+
+</div><!-- menu ends here -->
+
+<div class="mainText">
+
+<h1 id="top">
+Projects
+</h1>
+
+<!-- Page published by Muse begins here -->
+<h3>Model Based Source Separation</h3>
+
+<p><a name="sourcesep" id="sourcesep"></a>
+My PhD research involves the use of statistical models for the
+separation of complex audio signals (e.g. separating out a single
+voice in a cocktail party).  I am mainly interested in situations
+where there are more sources of interest than there are observed
+channels (i.e. I'm no expert on <a href="http://en.wikipedia.org/wiki/Independent_component_analysis">ICA</a>) and thus the problem is
+underdetermined.</p>
+
+<p>Clearly this is a very difficult problem.  Luckily, most audio signals
+are quite redundant so it is possible to use the parts of the mixed
+signal that are not obscured by the interference to infer what the
+target (e.g. a particular speaker) signal might have been.  This is
+done using prior knowledge of the statistics of the target signals and
+the magic of machine learning.</p>
+
+<p>You can find some audio examples <a href="SSC.html">here</a>.</p>
+
+
+
+
+
+<h3>MEAPsoft</h3>
+
+<p><a name="meapsoft" id="meapsoft"></a>
+<a href="images/meapsoft-flowchart.png"><img align="left"
+src="images/meapsoft-flowchart-thumb.png" /> </a>
+</p>
+
+<p>MEAPsoft is a collection of tools for cutting audio up into small
+chunks and rearranging them.  It also contains a tool for visualizing
+common audio features.  While we have yet to find a practical use for
+this, it does produce some <a href="http://labrosa.ee.columbia.edu/meapsoft/showcase.php">fun sounds</a>.</p>
+
+<p>For a quick introduction to the whys and hows of MEAPsoft, see the
+<a href="talks/2007-01-03-dorkbot/meap_slides.pdf">slides</a> from the talk I gave at the January 2007 <a href="http://www.dorkbots.org/dorkbotnyc">dorkbot-nyc</a> meeting
+(sound files are <a href="talks/2007-01-03-dorkbot">here</a>).  You can find more information and download
+the latest release at the <a href="http://labrosa.ee.columbia.edu/meapsoft">MEAPsoft website</a>.</p>
+
+
+<!-- Page published by Muse ends here -->
+</div>
+<hr>
+<span class="footdate">
+Last updated on September  3, 2017.
+</span>
+
+</body>
+</html>

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <title>Monaural Speech Separation Using Source-Adapted Models</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta http-equiv="Content-Type"
+  content="text/html; charset=iso-8859-1" />
+</head>
+
+<body>
+
+
+<div class="navigation">
+  <div class="menuitem">
+    <a title="Home" href="index.html">Home</a>
+  </div>
+  <div class="menuitem">
+    <a title="Projects" href="projects.html">Projects</a>
+  </div>
+  <div class="menuitem">
+    <a title="Code" href="http://www.github.com/ronw">Code</a>
+    (<a title="OldCode" href="code">old</a>)
+  </div>
+  <div class="menuitem">
+<!--
+    <a title="Resume" href="ronweiss-resume.pdf">Resume</a>
+    /
+-->
+    <a title="CV" href="ronweiss-cv.pdf">CV</a>
+  </div>
+  <div class="menuitem">
+    <a title="Photos" href="photos/index.html">Photos</a>
+  </div>
+<!--  
+  <div class="menuitem">
+    <a title="Index" href="WikiIndex.html">Index</a>
+  </div>
+-->  
+
+</div><!-- menu ends here -->
+
+<div class="mainText">
+
+<h1 id="top">
+Monaural Speech Separation Using Source-Adapted Models
+</h1>
+
+<!-- Page published by Muse begins here -->
+
+<p class="image"><img align="right" src="images/ssc_specgram.png" usemap="#ssc_specgram"/>
+<map name="ssc_specgram">
+<area shape="rect" coords="0,0,350,100" href="sounds/ssc/t32_swil2a_m18_sbar9n/mixture.wav">
+<area shape="rect" coords="0,101,350,185" href="sounds/ssc/t32_swil2a_m18_sbar9n/ev_sep_iter1_src1.wav">
+<area shape="rect" coords="0,186,350,265" href="sounds/ssc/t32_swil2a_m18_sbar9n/ev_sep_iter3_src1.wav">
+<area shape="rect" coords="0,266,350,350" href="sounds/ssc/t32_swil2a_m18_sbar9n/ev_sep_iter5_src1.wav">
+<area shape="rect" coords="0,351,350,450" href="sounds/ssc/t32_swil2a_m18_sbar9n/iroquois_sep_src1.wav">
+</map>
+</p>
+
+
+<p>R. J. Weiss and D. P. W. Ellis, &quot;<a href="pubs/waspaa2007-adapted_models.pdf">Monaural Speech Separation Using Source-Adapted Models</a>&quot;, in Proceedings of IEEE Workshop on
+Applications of Signal Processing to Audio and Acoustics (WASPAA),
+2007. pp. 114-117</p>
+
+
+
+<p>We proposed a system for speech separation based on source-adapted
+speech signal models.  We evaluated the system on the test data from
+the <a href="http://www.dcs.shef.ac.uk/~martin/SpeechSeparationChallenge.htm">2006 Speech Separation Challenge</a> and compared its performance to
+that of speaker dependent and speaker independent model based systems.
+Below you can find some performance numbers and audio examples of the
+separated signals.  You can also mouse over the spectrograms to the
+right to see listen to the corresponding audio.</p>
+
+
+<h3>Performance</h3>
+
+<p class="first">We report the word accuracy on the letter and digit spoken by the
+speaker that says &quot;white&quot; for all three systems.  See the paper for a
+detailed discussion.</p>
+
+<p>Separation using speaker adapted (SA) models (after 5 iterations):</p>
+
+<table class="muse-table" border="2" cellpadding="5">
+  <thead>
+    <tr>
+      <th>SNR</th>
+      <th>Same Talker</th>
+      <th>Same Gender</th>
+      <th>Diff Gender</th>
+      <th>Avg.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6 dB</td>
+      <td>38.96%</td>
+      <td>50.56%</td>
+      <td>62.50%</td>
+      <td>50.25%</td>
+    </tr>
+    <tr>
+      <td>3 dB</td>
+      <td>33.56%</td>
+      <td>47.21%</td>
+      <td>59.25%</td>
+      <td>46.17%</td>
+    </tr>
+    <tr>
+      <td>0 dB</td>
+      <td>26.80%</td>
+      <td>42.46%</td>
+      <td>52.50%</td>
+      <td>40.02%</td>
+    </tr>
+    <tr>
+      <td>-3 dB</td>
+      <td>23.42%</td>
+      <td>33.52%</td>
+      <td>49.75%</td>
+      <td>35.19%</td>
+    </tr>
+    <tr>
+      <td>-6 dB</td>
+      <td>17.79%</td>
+      <td>25.14%</td>
+      <td>33.75%</td>
+      <td>25.29%</td>
+    </tr>
+    <tr>
+      <td>-9 dB</td>
+      <td>13.06%</td>
+      <td>21.51%</td>
+      <td>26.00%</td>
+      <td>19.88%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Separation using speaker adapted (SA) models (after 15 iterations):</p>
+
+<table class="muse-table" border="2" cellpadding="5">
+  <thead>
+    <tr>
+      <th>SNR</th>
+      <th>Same Talker</th>
+      <th>Same Gender</th>
+      <th>Diff Gender</th>
+      <th>Avg.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6 dB</td>
+      <td>41.89%</td>
+      <td>63.41%</td>
+      <td>71.00%</td>
+      <td>57.99%</td>
+    </tr>
+    <tr>
+      <td>3 dB</td>
+      <td>32.43%</td>
+      <td>58.38%</td>
+      <td>71.25%</td>
+      <td>53.08%</td>
+    </tr>
+    <tr>
+      <td>0 dB</td>
+      <td>29.05%</td>
+      <td>53.35%</td>
+      <td>64.25%</td>
+      <td>48.00%</td>
+    </tr>
+    <tr>
+      <td>3 dB</td>
+      <td>22.07%</td>
+      <td>43.02%</td>
+      <td>56.50%</td>
+      <td>39.77%</td>
+    </tr>
+    <tr>
+      <td>-6 dB</td>
+      <td>19.59%</td>
+      <td>39.39%</td>
+      <td>40.25%</td>
+      <td>32.36%</td>
+    </tr>
+    <tr>
+      <td>-9 dB</td>
+      <td>14.64%</td>
+      <td>24.30%</td>
+      <td>30.25%</td>
+      <td>22.71%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Separation using speaker dependent (SD) models:</p>
+
+<table class="muse-table" border="2" cellpadding="5">
+  <thead>
+    <tr>
+      <th>SNR</th>
+      <th>Same Talker</th>
+      <th>Same Gender</th>
+      <th>Diff Gender</th>
+      <th>Avg.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6 dB</td>
+      <td>38.29%</td>
+      <td>78.49%</td>
+      <td>74.25%</td>
+      <td>62.23%</td>
+    </tr>
+    <tr>
+      <td>3 dB</td>
+      <td>37.84%</td>
+      <td>74.58%</td>
+      <td>77.75%</td>
+      <td>62.06%</td>
+    </tr>
+    <tr>
+      <td>0 dB</td>
+      <td>28.60%</td>
+      <td>72.07%</td>
+      <td>76.00%</td>
+      <td>57.32%</td>
+    </tr>
+    <tr>
+      <td>-3 dB</td>
+      <td>22.75%</td>
+      <td>62.29%</td>
+      <td>66.00%</td>
+      <td>48.92%</td>
+    </tr>
+    <tr>
+      <td>-6 dB</td>
+      <td>15.32%</td>
+      <td>46.93%</td>
+      <td>51.25%</td>
+      <td>36.69%</td>
+    </tr>
+    <tr>
+      <td>-9 dB</td>
+      <td>9.01%</td>
+      <td>27.93%</td>
+      <td>27.50%</td>
+      <td>20.80%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Separation using speaker independent (SI) models:</p>
+
+<table class="muse-table" border="2" cellpadding="5">
+  <thead>
+    <tr>
+      <th>SNR</th>
+      <th>Same Talker</th>
+      <th>Same Gender</th>
+      <th>Diff Gender</th>
+      <th>Avg.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6dB</td>
+      <td>31.08%</td>
+      <td>34.08%</td>
+      <td>35.50%</td>
+      <td>33.44%</td>
+    </tr>
+    <tr>
+      <td>3dB</td>
+      <td>26.80%</td>
+      <td>30.45%</td>
+      <td>31.50%</td>
+      <td>29.45%</td>
+    </tr>
+    <tr>
+      <td>0dB</td>
+      <td>24.55%</td>
+      <td>26.26%</td>
+      <td>31.00%</td>
+      <td>27.20%</td>
+    </tr>
+    <tr>
+      <td>-3dB</td>
+      <td>18.02%</td>
+      <td>22.35%</td>
+      <td>21.75%</td>
+      <td>20.55%</td>
+    </tr>
+    <tr>
+      <td>-6dB</td>
+      <td>14.19%</td>
+      <td>18.44%</td>
+      <td>18.75%</td>
+      <td>16.97%</td>
+    </tr>
+    <tr>
+      <td>-9dB</td>
+      <td>9.46%</td>
+      <td>9.50%</td>
+      <td>11.75%</td>
+      <td>10.23%</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+<h3>Audio examples</h3>
+
+
+
+
+<table class="muse-table" border="2" cellpadding="5">
+  <thead>
+    <tr>
+      <th>.</th>
+      <th>6dB</th>
+      <th>3dB</th>
+      <th>0dB</th>
+      <th>m3dB</th>
+      <th>m6dB</th>
+      <th>m9dB</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mixture</td>
+      <td><a href="sounds/ssc/mixed/6dB_t22_bwbr8a_m9_lraj9s.wav">mixture</a></td>
+      <td><a href="sounds/ssc/mixed/3dB_t31_lwai5a_m31_pgin4p.wav">mixture</a></td>
+      <td><a href="sounds/ssc/mixed/0dB_t25_bwik1s_m25_bgwf4n.wav">mixture</a></td>
+      <td><a href="sounds/ssc/mixed/m3dB_t21_swwt7s_m32_lgwx4s.wav">mixture</a></td>
+      <td><a href="sounds/ssc/mixed/m6dB_t29_lwbp3s_m15_pbbbzn.wav">mixture</a></td>
+      <td><a href="sounds/ssc/mixed/m9dB_t4_swab3n_m4_sbig1n.wav">mixture</a></td>
+    </tr>
+    <tr>
+      <td>SA</td>
+      <td><a href="sounds/ssc/ev/iter15/6dB_t22_bwbr8a_m9_lraj9s.wav">target</a>  <a href="sounds/ssc/ev/iter15/6dB_t22_bwbr8a_m9_lraj9s_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/ev/iter15/3dB_t31_lwai5a_m31_pgin4p.wav">target</a>  <a href="sounds/ssc/ev/iter15/3dB_t31_lwai5a_m31_pgin4p_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/ev/iter15/0dB_t25_bwik1s_m25_bgwf4n.wav">target</a>  <a href="sounds/ssc/ev/iter15/0dB_t25_bwik1s_m25_bgwf4n_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/ev/iter15/m3dB_t21_swwt7s_m32_lgwx4s.wav">target</a>  <a href="sounds/ssc/ev/iter15/m3dB_t21_swwt7s_m32_lgwx4s_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/ev/iter15/m6dB_t29_lwbp3s_m15_pbbbzn.wav">target</a>  <a href="sounds/ssc/ev/iter15/m6dB_t29_lwbp3s_m15_pbbbzn_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/ev/iter15/m9dB_t4_swab3n_m4_sbig1n.wav">target</a>  <a href="sounds/ssc/ev/iter15/m9dB_t4_swab3n_m4_sbig1n_masker.wav">masker</a></td>
+    </tr>
+    <tr>
+      <td>SD</td>
+      <td><a href="sounds/ssc/sd_iroquois/6dB_t22_bwbr8a_m9_lraj9s.wav">target</a>  <a href="sounds/ssc/sd_iroquois/6dB_t22_bwbr8a_m9_lraj9s_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/sd_iroquois/3dB_t31_lwai5a_m31_pgin4p.wav">target</a>  <a href="sounds/ssc/sd_iroquois/3dB_t31_lwai5a_m31_pgin4p_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/sd_iroquois/0dB_t25_bwik1s_m25_bgwf4n.wav">target</a>  <a href="sounds/ssc/sd_iroquois/0dB_t25_bwik1s_m25_bgwf4n_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/sd_iroquois/m3dB_t21_swwt7s_m32_lgwx4s.wav">target</a>  <a href="sounds/ssc/sd_iroquois/m3dB_t21_swwt7s_m32_lgwx4s_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/sd_iroquois/m6dB_t29_lwbp3s_m15_pbbbzn.wav">target</a>  <a href="sounds/ssc/sd_iroquois/m6dB_t29_lwbp3s_m15_pbbbzn_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/sd_iroquois/m9dB_t4_swab3n_m4_sbig1n.wav">target</a>  <a href="sounds/ssc/sd_iroquois/m9dB_t4_swab3n_m4_sbig1n_masker.wav">masker</a></td>
+    </tr>
+    <tr>
+      <td>SI</td>
+      <td><a href="sounds/ssc/si/6dB_t22_bwbr8a_m9_lraj9s.wav">target</a>  <a href="sounds/ssc/si/6dB_t22_bwbr8a_m9_lraj9s_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/si/3dB_t31_lwai5a_m31_pgin4p.wav">target</a>  <a href="sounds/ssc/si/3dB_t31_lwai5a_m31_pgin4p_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/si/0dB_t25_bwik1s_m25_bgwf4n.wav">target</a>  <a href="sounds/ssc/si/0dB_t25_bwik1s_m25_bgwf4n_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/si/m3dB_t21_swwt7s_m32_lgwx4s.wav">target</a>  <a href="sounds/ssc/si/m3dB_t21_swwt7s_m32_lgwx4s_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/si/m6dB_t29_lwbp3s_m15_pbbbzn.wav">target</a>  <a href="sounds/ssc/si/m6dB_t29_lwbp3s_m15_pbbbzn_masker.wav">masker</a></td>
+      <td><a href="sounds/ssc/si/m9dB_t4_swab3n_m4_sbig1n.wav">target</a>  <a href="sounds/ssc/si/m9dB_t4_swab3n_m4_sbig1n_masker.wav">masker</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<!-- Page published by Muse ends here -->
+</div>
+<hr>
+<span class="footdate">
+Last updated on September  3, 2017.
+</span>
+
+</body>
+</html>
