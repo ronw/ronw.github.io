@@ -2,7 +2,7 @@
 #title Ron Weiss
 
 <literal>
-<img align="left" src="images/ron-ee6884-cropped.jpg" />
+<img align=`"left" src="images/ron-ee6884-cropped.jpg" />
 </literal>
 
 I'm currently a software engineer at [[http://g.co/brain][Google Brain]].  While at [[http://research.google.com/pubs/RonWeiss.html][Google]]
@@ -58,7 +58,7 @@ bibtex2html -q -d -r -noabstract -nodoc -nofooter -s ronw_web \
 
 I have taught/been a teaching assistant for:
 
- - Spring 2010: [[adst-spring2010][E85.2607]] Advanced Digital Signal Theory (NYU)
+ - Spring 2010: [[http://www.ee.columbia.edu/~ronw/adst-spring2010][E85.2607]] Advanced Digital Signal Theory (NYU)
  - Spring 2007: [[http://labrosa.ee.columbia.edu/e4896/wiki.pl][ELEN E4896/E4998]] Music Signal Processing
  - Spring 2005: [[http://www.ee.columbia.edu/~eleft/e4896-Spring05/][ELEN E4896]] Music Signal Processing
  - Fall 2004: [[http://www.ee.columbia.edu/~anastas/gist2004/][GIST E4060/E3060]] Introduction to Genomic Information
