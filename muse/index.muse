@@ -63,8 +63,3 @@ I have taught/been a teaching assistant for:
  - Fall 2004: [[http://www.ee.columbia.edu/~anastas/gist2004/][GIST E4060/E3060]] Introduction to Genomic Information
    Science and Technology
  - Fall 2003: [[http://www.cs.columbia.edu/~nieh/teaching/w4118_f03/][COMS W4118]] Operating Systems I
-
-
-** Contact information
-
-Send email to =ronw= at =ee.columbia.edu=
