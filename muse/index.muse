@@ -45,7 +45,7 @@ and [[http://github.com/ronw/matlab_htk/][interfacing]] with [[http://htk.eng.ca
 <command>
 cd ..
 bibtex2html -q -d -r -noabstract -nodoc -nofooter -s ronw_web \
-    -nf slides slides -nf poster poster -nf web web -nf http http -nf arxiv arxiv \
+    -nf slides slides -nf poster poster -nf web web -nf http http -nf arxiv arxiv -nf reviews reviews \
     pubs/ronwpubs.bib
 </command>
 <include markup="nil" file="../ronwpubs.html">
