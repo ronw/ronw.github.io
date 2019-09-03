@@ -8,7 +8,6 @@
 @string{ dafx   = "Proc. International Conference on Digital Audio Effects"}
 @string{ jmlr   = "Journal of Machine Learning Research"}
 @string{ jasa   = "Journal of the Acoustical Society of America"}
-@string{ taslp  = "{IEEE} Transactions on Audio, Speech, and Language Processing"}
 @string{ ica    = "Proc. International Conference on Independent Component Analysis and Signal Separation ({ICA})"}
 @string{ sapa   = "Proc. ISCA Tutorial and Research Workshop on Statistical Perceptual Audition (SAPA)"}
 @string{ recsys = "Proc. ACM Conference on Recommender Systems ({RecSys})"}
@@ -580,10 +579,12 @@ subspace model to adapt to match the sources present in the signal.},
 @article{chorowski2019unsupervised,
   title = {Unsupervised speech representation learning using {WaveNet} autoencoders},
   author = {J. Chorowski and R. J. Weiss and S. Bengio and A. van den Oord},
-  journal = {arXiv preprint arXiv:1901.08810},
-  month = jan,
+  journal = taslp,
+  month = sep,
   year = {2019},
+  note = "Accepted",
   arxiv = "https://arxiv.org/abs/1901.08810",
+  doi = "10.1109/TASLP.2019.2938863",
 }
 
 @inproceedings{hsu2019hierarchical,
@@ -635,42 +636,58 @@ subspace model to adapt to match the sources present in the signal.},
   poster = "pubs/icassp2019-texture-poster.pdf",
 }
 
-@article{wang2019voicefilter,
+@inproceedings{wang2019voicefilter,
   author = {Q. Wang and H. Muckenhirn and K. Wilson and P. Sridhar and Z. Wu and J. Hershey and  R. A. Saurous and R. J. Weiss and Y. Jia and I. Lopez-Moreno},
   title = {{VoiceFilter}: Targeted Voice Separation by Speaker-Conditioned Spectrogram Masking},
-  journal={arXiv preprint arXiv:1810.04826},
-  month = oct,
-  year = {2018},
+  booktitle = interspeech,
+  month = sep,
+  year = {2019},
+  address = {Graz, Austria},
   arxiv = "https://arxiv.org/abs/1810.04826",
   web = "https://google.github.io/speaker-id/publications/VoiceFilter",
 }
 
-@article{jia2019direct,
+@inproceedings{jia2019direct,
   title = {Direct Speech-to-Speech Translation with a Sequence-to-Sequence Model},
   author = {Y. Jia and R. J. Weiss and F. Biadsy and W. Macherey and M. Johnson and Z. Chen and Y. Wu},
-  journal = {arXiv preprint arXiv:1904.06037},
-  month = apr,
+  booktitle = interspeech,
+  month = sep,
   year = {2019},
+  address = {Graz, Austria},
   arxiv = "https://arxiv.org/abs/1904.06037",
   web = "https://google-research.github.io/lingvo-lab/translatotron",
 }
 
-@article{biadsy2019parrotron,
+@inproceedings{biadsy2019parrotron,
   title = {Parrotron: An End-to-End Speech-to-Speech Conversion Model and its Applications to Hearing-Impaired Speech and Speech Separation},
   author = {F. Biadsy and R. J. Weiss and P. J. Moreno and D. Kanvesky and Y. Jia},
-  journal = {arXiv preprint arXiv:1904.04169},
-  month = apr,
+  booktitle = interspeech,
+  month = sep,
   year = {2019},
+  address = {Graz, Austria},
   arxiv = "https://arxiv.org/abs/1904.04169",
   web = "https://google.github.io/tacotron/publications/parrotron",
 }
 
-@article{zen2019libritts,
+@inproceedings{zen2019libritts,
   title = {LibriTTS: A Corpus Derived from LibriSpeech for Text-to-Speech},
   author = {H. Zen and V. Dang and R. Clark and Y. Zhang and R. J. Weiss and Y. Jia and Z. Chen and Y. Wu},
   journal = {arXiv preprint arXiv:1904.02882},
-  month = apr,
+  booktitle = interspeech,
+  month = sep,
   year = {2019},
+  address = {Graz, Austria},
   arxiv = "https://arxiv.org/abs/1904.02882",
   web = "http://www.openslr.org/60/",
+}
+
+@inproceedings{zhang2019learning,
+  title={Learning to Speak Fluently in a Foreign Language: Multilingual Speech Synthesis and Cross-Language Voice Cloning},
+  author={Y. Zhang and R. J. Weiss and H. Zen and Y. Wu and Z. Chen and R. J. Skerry-Ryan and Y. Jia and A. Rosenberg and B. Ramabhadran},
+  booktitle = interspeech,
+  month = sep,
+  year = {2019},
+  address = {Graz, Austria},
+  arxiv = "https://arxiv.org/abs/1907.04448",
+  web = "https://google.github.io/tacotron/publications/multilingual",
 }
