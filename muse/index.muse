@@ -24,7 +24,7 @@ You might also be interested in some of my freely available [[http://github.com/
 including assorted Python [[http://github.com/ronw/frontend][audio]] [[http://github.com/ronw/gm][processing]] [[http://github.com/ronw/daap-player][modules]], and useful Matlab
 tools for [[http://github.com/ronw/celltools][functional programming]], [[http://ronw.github.com/plottools/][easier plotting]], [[http://github.com/ronw/matlab_hmm][training GMMs/HMMs]],
 and [[http://github.com/ronw/matlab_htk/][interfacing]] with [[http://htk.eng.cam.ac.uk][HTK]].  I've also spent some time hacking on the
-[[http://bitbucket.org/ronw/gordon][Gordon music database]] and [[http://scikit-learn.sourceforge.net/][scikits.learn]].
+[[http://bitbucket.org/ronw/gordon][Gordon music database]] and [[https://scikit-learn.org/][scikit-learn]].
 
 ; Ron obtained his B.S. in computer engineering 2004 and his M.S. in
 ; electrical engineering in 2005, both from Columbia's illustrious
@@ -34,9 +34,10 @@ and [[http://github.com/ronw/matlab_htk/][interfacing]] with [[http://htk.eng.ca
 ; the beach, [[http://en.wikipedia.org/wiki/Bottom_posting][bottom posting]], [[http://www.emacswiki.org/][emacs]], pointless boycotts, and writing
 ; about himself in the third person.
 
-** Talks
+** Invited Talks
 #talks
- - **Training neural network acoustic models on (multichannel) waveforms**, [[http://saneworkshop.org][Speech and Audio in the Northeast (SANE) Workshop]], October 2015.  [ [[pubs/sane2015-waveform_cldnn-slides.pdf][slides]] | [[https://youtu.be/sI_8EA0_ha8][video]] ]
+ - **Generating speech from speech: How end-to-end is too far?**, [[http://www.saneworkshop.org/sane2019/][Speech and Audio in the Northeast (SANE) Workshop]], October 2019.  [ [[talks/2019-10-24-sane-speech_to_speech.pdf][slides]] ]
+ - **Training neural network acoustic models on (multichannel) waveforms**, [[http://saneworkshop.org/sane2015][Speech and Audio in the Northeast (SANE) Workshop]], October 2015.  [ [[talks/2015-10-22-sane-waveform_cldnn-slides.pdf][slides]] =|= [[https://youtu.be/sI_8EA0_ha8][video]] ]
 
 ** Publications
 #pubs
