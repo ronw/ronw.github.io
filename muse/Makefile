@@ -6,5 +6,5 @@ MUSEPROJECT = eeweb
 all: publishmuse
 
 publishmuse: $(SOURCEFILES) $(BIB)
-	emacs -batch -l ./muse-init.el -eval '(muse-project-publish "$(MUSEPROJECT)")'
+	emacs --no-site-file -batch -l ./muse-init.el -eval '(muse-project-publish "$(MUSEPROJECT)")'
 
