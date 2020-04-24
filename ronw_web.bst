@@ -52,6 +52,7 @@ FUNCTION {output.nonnull}
     { ", " * write$ }
     { output.state after.block =
 	{ add.period$ write$
+	  "\leavevmode\\ " write$
 	  newline$
 	  "\newblock " write$
 	}
@@ -95,6 +96,7 @@ FUNCTION {output.bibitem}
 FUNCTION {fin.entry}
 { add.period$
   write$
+  "\leavevmode\\ " write$
   newline$
 }
 
