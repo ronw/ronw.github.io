@@ -36,8 +36,16 @@ and [[http://github.com/ronw/matlab_htk/][interfacing]] with [[http://htk.eng.ca
 
 ** Invited Talks
 #talks
- - **Generating speech from speech: How end-to-end is too far?**, [[http://www.saneworkshop.org/sane2019/][Speech and Audio in the Northeast (SANE) Workshop]], October 2019.  [ [[talks/2019-10-24-sane-speech_to_speech.pdf][slides]] ]
- - **Training neural network acoustic models on (multichannel) waveforms**, [[http://saneworkshop.org/sane2015][Speech and Audio in the Northeast (SANE) Workshop]], October 2015.  [ [[talks/2015-10-22-sane-waveform_cldnn-slides.pdf][slides]] =|= [[https://youtu.be/sI_8EA0_ha8][video]] ]
+ - **Generating speech from speech: How end-to-end is too far?**
+   <br>
+   [[http://www.saneworkshop.org/sane2019/][Speech and Audio in the Northeast (SANE) Workshop]], October 2019.
+   <br>
+   [ [[talks/2019-10-24-sane-speech_to_speech.pdf][slides]] ]
+ - **Training neural network acoustic models on (multichannel) waveforms**
+   <br>
+   [[http://saneworkshop.org/sane2015][Speech and Audio in the Northeast (SANE) Workshop]], October 2015.
+   <br>
+   [ [[talks/2015-10-22-sane-waveform_cldnn-slides.pdf][slides]] =|= [[https://youtu.be/sI_8EA0_ha8][video]] ]
 
 ** Publications
 #pubs
