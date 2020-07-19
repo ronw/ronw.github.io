@@ -40,7 +40,7 @@ and [[http://github.com/ronw/matlab_htk/][interfacing]] with [[http://htk.eng.ca
    <br>
    [[http://www.saneworkshop.org/sane2019/][Speech and Audio in the Northeast (SANE) Workshop]], October 2019.
    <br>
-   [ [[talks/2019-10-24-sane-speech_to_speech.pdf][slides]] ]
+   [ [[talks/2019-10-24-sane-speech_to_speech.pdf][slides]] =|= [[https://youtu.be/iHRp9er5_Fs][video]] ]
  - **Training neural network acoustic models on (multichannel) waveforms**
    <br>
    [[http://saneworkshop.org/sane2015][Speech and Audio in the Northeast (SANE) Workshop]], October 2015.
